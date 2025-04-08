@@ -1,3 +1,5 @@
+![Needles Visual Preview](./assets/needles-promo.png)
+
 # 🧵 Needles — Visualize What Your Code Is Stitched To
 
 **Needles** is a Visual Studio Code extension that helps developers visualize dependencies inside their code.  
