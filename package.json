@@ -1,23 +1,36 @@
 {
   "name": "needles",
-  "displayName": "needles",
+  "displayName": "Needles",
   "description": "Visualize code dependencies in VS Code",
+  "icon": "assets/icon.png",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.99.0"
   },
   "categories": [
-    "Other"
+    "Other", "Linters", "Visualization"
   ],
-  "activationEvents": [],
+  "activationEvents": [
+    "onCommand:needles.analyzeFile"
+  ],
   "main": "./dist/extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "needles.helloWorld",
-        "title": "Hello World"
+        "command": "needles.analyzeFile",
+        "title": "Needles: Analyze Current Python File",
+        "category": "Needles"
       }
-    ]
+    ],
+    "menus": {
+      "editor/context": [
+        {
+          "command": "needles.analyzeFile",
+          "when": "editorLangId == python",
+          "group": "navigation"
+        }
+      ]
+    }
   },
   "scripts": {
     "vscode:prepublish": "npm run package",
