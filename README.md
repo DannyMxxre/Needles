@@ -9,7 +9,7 @@ Break with fixing no more.
 ## ✨ MVP Features
 
 ✔️ Visualize dependencies **within a single file**  
-
+✔️ **Python** support  (WIP)
 
 ---
 
@@ -18,7 +18,6 @@ Break with fixing no more.
 ✔️ Highlights for variables, functions, classes, and their relationships (WIP)  
 ✔️ Side panel dependency mini-map (WIP)
 ✔️ Clickable navigation across linked code elements (WIP)  
-✔️ **Python** support  (WIP)
 ✔️ Light and dark themes  (WIP)
 ✔️ Customizable scale and appearance (WIP)
 
@@ -33,8 +32,16 @@ If you want to help with language support or improvements — [open an issue](ht
 
 ## 📄 License
 
-[MIT License](./LICENSE)
+[Apache 2.0 License](./LICENSE)
 
 ---
+
+
+## 📬 Stay Updated
+
+Follow us on Telegram for updates and behind-the-scenes:  
+👉 [t.me/needles_Ext](https://t.me/Needles_Ext)
+
+
 
 Made with ❤️ by DannyMxxre
