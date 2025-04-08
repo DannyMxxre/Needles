@@ -9,13 +9,16 @@
   "categories": [
     "Other"
   ],
-  "activationEvents": [],
+  "activationEvents": [
+    "onCommand:needles.analyzeFile"
+  ],
   "main": "./dist/extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "needles.helloWorld",
-        "title": "Hello World"
+        "command": "needles.analyzeFile",
+        "title": "Needles: Analyze Current Python File",
+        "category": "Needles"
       }
     ]
   },
